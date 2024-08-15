@@ -49,8 +49,7 @@ namespace WebApp
             services.AddScoped<ICurrentUserService, CurrentUserService>();
             services.AddScoped<IBackgroundJobService, BackgroundJobService>();
             services.AddScoped<IEmailService, EmailService>();
-            services.AddDbContext<IDbContext, AppDbContext>(builder =>
-                builder.UseSqlServer(Configuration.GetConnectionString("MsSql")));
+            services.AddDbContext<IDbContext, AppDbContext>(builder => builder.UseSqlServer(Configuration.GetConnectionString("MsSql")));
             services.AddScoped<IDeliveryService, DeliveryService>();
 
             //Application
@@ -84,8 +83,7 @@ namespace WebApp
                 endpoints.MapControllers();
             });
 
-            RecurringJob.AddOrUpdate<UpdateOrdersDeliveryStatusJob>("UpdateOrdersDeliverStatus",
-                job => job.ExecuteAsync(), Cron.Daily);
+            RecurringJob.AddOrUpdate<UpdateOrdersDeliveryStatusJob>("UpdateOrdersDeliverStatus", job => job.ExecuteAsync(), Cron.Daily);
         }
 
     }
