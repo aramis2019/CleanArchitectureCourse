@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created by yFiles WPF 3.4.0.0-->
+<graphml xmlns:y="http://www.yworks.com/xml/yfiles-common/3.0" xmlns:xps="http://schemas.microsoft.com/xps/2005/06" xmlns:ywpf="http://www.yworks.com/xml/yfiles-wpf/3.0/xaml" xmlns:x="http://www.yworks.com/xml/yfiles-common/markup/3.0" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml.wpf/3.0/ygraphml.xsd " xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="d0" attr.type="boolean" attr.name="Expanded" for="node" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/folding/Expanded">
+    <default>true</default>
+  </key>
+  <key id="d1" attr.type="string" attr.name="type" for="node" />
+  <key id="d2" attr.type="string" attr.name="path" for="node" />
+  <key id="d3" attr.type="string" attr.name="display_name" for="node" />
+  <key id="d4" attr.name="NodeLabels" for="node" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/NodeLabels" />
+  <key id="d5" attr.name="NodeGeometry" for="node" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/NodeGeometry" />
+  <key id="d6" attr.name="UserTags" for="all" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/UserTags" />
+  <key id="d7" attr.name="NodeStyle" for="node" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/NodeStyle" />
+  <key id="d8" attr.name="NodeViewState" for="node" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/folding/1.1/NodeViewState" />
+  <key id="d9" attr.type="string" attr.name="dependency_type" for="edge" />
+  <key id="d10" attr.name="EdgeLabels" for="edge" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/EdgeLabels" />
+  <key id="d11" attr.name="EdgeGeometry" for="edge" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/EdgeGeometry" />
+  <key id="d12" attr.name="EdgeStyle" for="edge" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/EdgeStyle" />
+  <key id="d13" attr.name="EdgeViewState" for="edge" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/folding/1.1/EdgeViewState" />
+  <key id="d14" attr.name="PortLabels" for="port" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/PortLabels" />
+  <key id="d15" attr.name="PortLocationParameter" for="port" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/PortLocationParameter">
+    <default />
+  </key>
+  <key id="d16" attr.name="PortStyle" for="port" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/PortStyle">
+    <default>
+      <x:Static Member="y:VoidPortStyle.Instance" />
+    </default>
+  </key>
+  <key id="d17" attr.name="PortViewState" for="port" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/folding/1.1/PortViewState" />
+  <key id="d18" attr.name="SharedData" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/SharedData" />
+  <data key="d18">
+    <y:SharedData />
+  </data>
+  <graph id="G">
+    <node id="n0">
+      <data key="d1"><![CDATA[0]]></data>
+      <data key="d2"><![CDATA[E:\Projects\github.com\aramis2019\CleanArchitectureCourse\CleanArchitecture]]></data>
+      <data key="d3"><![CDATA[1 Entities]]></data>
+      <data key="d4" />
+      <data key="d5">
+        <y:RectD X="0" Y="-1415" Width="2804.75" Height="490" />
+      </data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">
+        <y:ViewState />
+      </data>
+      <graph id="n0:">
+        <node id="n0::n0">
+          <data key="d1"><![CDATA[0]]></data>
+          <data key="d2"><![CDATA[E:\Projects\github.com\aramis2019\CleanArchitectureCourse\CleanArchitecture\DomainServices.Implementation]]></data>
+          <data key="d3"><![CDATA[DomainServices.Implementation]]></data>
+          <data key="d4" />
+          <data key="d5">
+            <y:RectD X="50" Y="-1065" Width="527" Height="90" />
+          </data>
+          <data key="d6" />
+          <data key="d7" />
+          <port name="p0">
+            <data key="d15" />
+          </port>
+          <port name="p1">
+            <data key="d15" />
+          </port>
+        </node>
+        <node id="n0::n1">
+          <data key="d1"><![CDATA[0]]></data>
+          <data key="d2"><![CDATA[E:\Projects\github.com\aramis2019\CleanArchitectureCourse\CleanArchitecture\DomainServices.Interfaces]]></data>
+          <data key="d3"><![CDATA[DomainServices.Interfaces]]></data>
+          <data key="d4" />
+          <data key="d5">
+            <y:RectD X="202.25" Y="-1195" Width="445" Height="90" />
+          </data>
+          <data key="d6" />
+          <data key="d7" />
+          <port name="p0">
+            <data key="d15" />
+          </port>
+          <port name="p1">
+            <data key="d15" />
+          </port>
+          <port name="p2">
+            <data key="d15" />
+          </port>
+        </node>
+        <node id="n0::n2">
+          <data key="d1"><![CDATA[0]]></data>
+          <data key="d2"><![CDATA[E:\Projects\github.com\aramis2019\CleanArchitectureCourse\CleanArchitecture\Entities]]></data>
+          <data key="d3"><![CDATA[Entities]]></data>
+          <data key="d4" />
+          <data key="d5">
+            <y:RectD X="520.25" Y="-1325" Width="196" Height="90" />
+          </data>
+          <data key="d6" />
+          <data key="d7" />
+          <port name="p0">
+            <data key="d15" />
+          </port>
+          <port name="p1">
+            <data key="d15" />
+          </port>
+        </node>
+        <edge id="n0::e0" source="n0::n0" target="n0::n1" sourceport="p0" targetport="p0">
+          <data key="d9"><![CDATA[Direct]]></data>
+          <data key="d12">
+            <ywpf:PolylineEdgeStyle>
+              <ywpf:PolylineEdgeStyle.Pen>
+                <Pen Brush="#FF5B90BF" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+              </ywpf:PolylineEdgeStyle.Pen>
+              <ywpf:PolylineEdgeStyle.TargetArrow>
+                <ywpf:Arrow Brush="{y:GraphMLReference 2}" CropLength="1" Type="Triangle" IsFrozen="True">
+                  <ywpf:Arrow.Pen>
+                    <Pen Brush="#FF5B90BF" Thickness="3" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+                  </ywpf:Arrow.Pen>
+                </ywpf:Arrow>
+              </ywpf:PolylineEdgeStyle.TargetArrow>
+            </ywpf:PolylineEdgeStyle>
+          </data>
+          <data key="d6" />
+        </edge>
+        <edge id="n0::e1" source="n0::n1" target="n0::n2" sourceport="p1" targetport="p0">
+          <data key="d9"><![CDATA[Direct]]></data>
+          <data key="d11" />
+          <data key="d12">
+            <ywpf:PolylineEdgeStyle>
+              <ywpf:PolylineEdgeStyle.Pen>
+                <Pen Brush="#FF5B90BF" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+              </ywpf:PolylineEdgeStyle.Pen>
+              <ywpf:PolylineEdgeStyle.TargetArrow>
+                <ywpf:Arrow Brush="{y:GraphMLReference 2}" CropLength="1" Type="Triangle" IsFrozen="True">
+                  <ywpf:Arrow.Pen>
+                    <Pen Brush="#FF5B90BF" Thickness="3" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+                  </ywpf:Arrow.Pen>
+                </ywpf:Arrow>
+              </ywpf:PolylineEdgeStyle.TargetArrow>
+            </ywpf:PolylineEdgeStyle>
+          </data>
+          <data key="d6" />
+        </edge>
+      </graph>
+    </node>
+    <node id="n1">
+      <data key="d1"><![CDATA[0]]></data>
+      <data key="d2"><![CDATA[E:\Projects\github.com\aramis2019\CleanArchitectureCourse\CleanArchitecture]]></data>
+      <data key="d3"><![CDATA[2 Infrastructure.Interfaces]]></data>
+      <data key="d4" />
+      <data key="d5">
+        <y:RectD X="377.5" Y="-780" Width="1572" Height="230" />
+      </data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">
+        <y:ViewState />
+      </data>
+      <graph id="n1:">
+        <node id="n1::n0">
+          <data key="d1"><![CDATA[0]]></data>
+          <data key="d2"><![CDATA[E:\Projects\github.com\aramis2019\CleanArchitectureCourse\CleanArchitecture\DataAccess.Interfaces]]></data>
+          <data key="d3"><![CDATA[DataAccess.Interfaces]]></data>
+          <data key="d4" />
+          <data key="d5">
+            <y:RectD X="427.5" Y="-690" Width="385" Height="90" />
+          </data>
+          <data key="d6" />
+          <data key="d7" />
+          <port name="p0">
+            <data key="d15" />
+          </port>
+          <port name="p1">
+            <data key="d15" />
+          </port>
+          <port name="p2">
+            <data key="d15" />
+          </port>
+        </node>
+        <node id="n1::n1">
+          <data key="d1"><![CDATA[0]]></data>
+          <data key="d2"><![CDATA[E:\Projects\github.com\aramis2019\CleanArchitectureCourse\CleanArchitecture\Delivery.Interfaces]]></data>
+          <data key="d3"><![CDATA[Delivery.Interfaces]]></data>
+          <data key="d4" />
+          <data key="d5">
+            <y:RectD X="842.5" Y="-690" Width="341" Height="90" />
+          </data>
+          <data key="d6" />
+          <data key="d7" />
+          <port name="p0">
+            <data key="d15" />
+          </port>
+          <port name="p1">
+            <data key="d15" />
+          </port>
+        </node>
+        <node id="n1::n2">
+          <data key="d1"><![CDATA[0]]></data>
+          <data key="d2"><![CDATA[E:\Projects\github.com\aramis2019\CleanArchitectureCourse\CleanArchitecture\Email.Interfaces]]></data>
+          <data key="d3"><![CDATA[Email.Interfaces]]></data>
+          <data key="d4" />
+          <data key="d5">
+            <y:RectD X="1213.5" Y="-690" Width="306" Height="90" />
+          </data>
+          <data key="d6" />
+          <data key="d7" />
+          <port name="p0">
+            <data key="d15" />
+          </port>
+          <port name="p1">
+            <data key="d15" />
+          </port>
+        </node>
+        <node id="n1::n3">
+          <data key="d1"><![CDATA[0]]></data>
+          <data key="d2"><![CDATA[E:\Projects\github.com\aramis2019\CleanArchitectureCourse\CleanArchitecture\WebApp.Interfaces]]></data>
+          <data key="d3"><![CDATA[WebApp.Interfaces]]></data>
+          <data key="d4" />
+          <data key="d5">
+            <y:RectD X="1549.5" Y="-690" Width="350" Height="90" />
+          </data>
+          <data key="d6" />
+          <data key="d7" />
+          <port name="p0">
+            <data key="d15" />
+          </port>
+        </node>
+      </graph>
+    </node>
+    <node id="n2">
+      <data key="d1"><![CDATA[0]]></data>
+      <data key="d2"><![CDATA[E:\Projects\github.com\aramis2019\CleanArchitectureCourse\CleanArchitecture]]></data>
+      <data key="d3"><![CDATA[3 Application]]></data>
+      <data key="d4" />
+      <data key="d5">
+        <y:RectD X="1979.5" Y="-920" Width="755.25" Height="370" />
+      </data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">
+        <y:ViewState />
+      </data>
+      <graph id="n2:">
+        <node id="n2::n0">
+          <data key="d1"><![CDATA[0]]></data>
+          <data key="d2"><![CDATA[E:\Projects\github.com\aramis2019\CleanArchitectureCourse\CleanArchitecture\ApplicationServices.Implementation]]></data>
+          <data key="d3"><![CDATA[ApplicationServices.Implementation]]></data>
+          <data key="d4" />
+          <data key="d5">
+            <y:RectD X="2029.5" Y="-690" Width="574" Height="90" />
+          </data>
+          <data key="d6" />
+          <data key="d7" />
+          <port name="p0">
+            <data key="d15" />
+          </port>
+          <port name="p1">
+            <data key="d15" />
+          </port>
+        </node>
+        <node id="n2::n1">
+          <data key="d1"><![CDATA[0]]></data>
+          <data key="d2"><![CDATA[E:\Projects\github.com\aramis2019\CleanArchitectureCourse\CleanArchitecture\ApplicationServices.Interfaces]]></data>
+          <data key="d3"><![CDATA[ApplicationServices.Interfaces]]></data>
+          <data key="d4" />
+          <data key="d5">
+            <y:RectD X="2193.75" Y="-830" Width="491" Height="90" />
+          </data>
+          <data key="d6" />
+          <data key="d7" />
+          <port name="p0">
+            <data key="d15" />
+          </port>
+          <port name="p1">
+            <data key="d15" />
+          </port>
+        </node>
+        <edge id="n2::e0" source="n2::n0" target="n2::n1" sourceport="p0" targetport="p0">
+          <data key="d9"><![CDATA[Direct]]></data>
+          <data key="d12">
+            <ywpf:PolylineEdgeStyle>
+              <ywpf:PolylineEdgeStyle.Pen>
+                <Pen Brush="#FF5B90BF" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+              </ywpf:PolylineEdgeStyle.Pen>
+              <ywpf:PolylineEdgeStyle.TargetArrow>
+                <ywpf:Arrow Brush="{y:GraphMLReference 2}" CropLength="1" Type="Triangle" IsFrozen="True">
+                  <ywpf:Arrow.Pen>
+                    <Pen Brush="#FF5B90BF" Thickness="3" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+                  </ywpf:Arrow.Pen>
+                </ywpf:Arrow>
+              </ywpf:PolylineEdgeStyle.TargetArrow>
+            </ywpf:PolylineEdgeStyle>
+          </data>
+          <data key="d6" />
+        </edge>
+      </graph>
+    </node>
+    <node id="n3">
+      <data key="d1"><![CDATA[0]]></data>
+      <data key="d2"><![CDATA[E:\Projects\github.com\aramis2019\CleanArchitectureCourse\CleanArchitecture]]></data>
+      <data key="d3"><![CDATA[4 Infrastructure.Implementation]]></data>
+      <data key="d4" />
+      <data key="d5">
+        <y:RectD X="333.5" Y="-360" Width="1176" Height="230" />
+      </data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">
+        <y:ViewState />
+      </data>
+      <graph id="n3:">
+        <node id="n3::n0">
+          <data key="d1"><![CDATA[0]]></data>
+          <data key="d2"><![CDATA[E:\Projects\github.com\aramis2019\CleanArchitectureCourse\CleanArchitecture\DataAccess.MsSql]]></data>
+          <data key="d3"><![CDATA[DataAccess.MsSql]]></data>
+          <data key="d4" />
+          <data key="d5">
+            <y:RectD X="383.5" Y="-270" Width="337" Height="90" />
+          </data>
+          <data key="d6" />
+          <data key="d7" />
+          <port name="p0">
+            <data key="d15" />
+          </port>
+          <port name="p1">
+            <data key="d15" />
+          </port>
+        </node>
+        <node id="n3::n1">
+          <data key="d1"><![CDATA[0]]></data>
+          <data key="d2"><![CDATA[E:\Projects\github.com\aramis2019\CleanArchitectureCourse\CleanArchitecture\Delivery.Company]]></data>
+          <data key="d3"><![CDATA[Delivery.Company]]></data>
+          <data key="d4" />
+          <data key="d5">
+            <y:RectD X="750.5" Y="-270" Width="340" Height="90" />
+          </data>
+          <data key="d6" />
+          <data key="d7" />
+          <port name="p0">
+            <data key="d15" />
+          </port>
+          <port name="p1">
+            <data key="d15" />
+          </port>
+        </node>
+        <node id="n3::n2">
+          <data key="d1"><![CDATA[0]]></data>
+          <data key="d2"><![CDATA[E:\Projects\github.com\aramis2019\CleanArchitectureCourse\CleanArchitecture\Email.MainHandler]]></data>
+          <data key="d3"><![CDATA[Email.MailHandler]]></data>
+          <data key="d4" />
+          <data key="d5">
+            <y:RectD X="1120.5" Y="-270" Width="339" Height="90" />
+          </data>
+          <data key="d6" />
+          <data key="d7" />
+          <port name="p0">
+            <data key="d15" />
+          </port>
+          <port name="p1">
+            <data key="d15" />
+          </port>
+        </node>
+      </graph>
+    </node>
+    <node id="n4">
+      <data key="d1"><![CDATA[0]]></data>
+      <data key="d2"><![CDATA[E:\Projects\github.com\aramis2019\CleanArchitectureCourse\CleanArchitecture]]></data>
+      <data key="d3"><![CDATA[Mobile]]></data>
+      <data key="d4" />
+      <data key="d5">
+        <y:RectD X="1539.5" Y="-500" Width="444" Height="370" />
+      </data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">
+        <y:ViewState />
+      </data>
+      <graph id="n4:">
+        <node id="n4::n0">
+          <data key="d1"><![CDATA[0]]></data>
+          <data key="d2"><![CDATA[E:\Projects\github.com\aramis2019\CleanArchitectureCourse\CleanArchitecture\Mobile.Controllers]]></data>
+          <data key="d3"><![CDATA[Mobile.Controllers]]></data>
+          <data key="d4" />
+          <data key="d5">
+            <y:RectD X="1589.5" Y="-270" Width="344" Height="90" />
+          </data>
+          <data key="d6" />
+          <data key="d7" />
+          <port name="p0">
+            <data key="d15" />
+          </port>
+          <port name="p1">
+            <data key="d15" />
+          </port>
+        </node>
+        <node id="n4::n1">
+          <data key="d1"><![CDATA[0]]></data>
+          <data key="d2"><![CDATA[E:\Projects\github.com\aramis2019\CleanArchitectureCourse\CleanArchitecture\Mobile.UseCases]]></data>
+          <data key="d3"><![CDATA[Mobile.UseCases]]></data>
+          <data key="d4" />
+          <data key="d5">
+            <y:RectD X="1600" Y="-410" Width="323" Height="90" />
+          </data>
+          <data key="d6" />
+          <data key="d7" />
+          <port name="p0">
+            <data key="d15" />
+          </port>
+          <port name="p1">
+            <data key="d15" />
+          </port>
+          <port name="p2">
+            <data key="d15" />
+          </port>
+          <port name="p3">
+            <data key="d15" />
+          </port>
+          <port name="p4">
+            <data key="d15" />
+          </port>
+          <port name="p5">
+            <data key="d15" />
+          </port>
+          <port name="p6">
+            <data key="d15" />
+          </port>
+        </node>
+        <edge id="n4::e0" source="n4::n0" target="n4::n1" sourceport="p0" targetport="p0">
+          <data key="d9"><![CDATA[Direct]]></data>
+          <data key="d12">
+            <ywpf:PolylineEdgeStyle>
+              <ywpf:PolylineEdgeStyle.Pen>
+                <Pen Brush="#FF5B90BF" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+              </ywpf:PolylineEdgeStyle.Pen>
+              <ywpf:PolylineEdgeStyle.TargetArrow>
+                <ywpf:Arrow Brush="{y:GraphMLReference 2}" CropLength="1" Type="Triangle" IsFrozen="True">
+                  <ywpf:Arrow.Pen>
+                    <Pen Brush="#FF5B90BF" Thickness="3" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+                  </ywpf:Arrow.Pen>
+                </ywpf:Arrow>
+              </ywpf:PolylineEdgeStyle.TargetArrow>
+            </ywpf:PolylineEdgeStyle>
+          </data>
+          <data key="d6" />
+        </edge>
+      </graph>
+    </node>
+    <node id="n5">
+      <data key="d1"><![CDATA[0]]></data>
+      <data key="d2"><![CDATA[E:\Projects\github.com\aramis2019\CleanArchitectureCourse\CleanArchitecture\WebApp]]></data>
+      <data key="d3"><![CDATA[WebApp]]></data>
+      <data key="d4" />
+      <data key="d5">
+        <y:RectD X="997.75" Y="-90" Width="215" Height="90" />
+      </data>
+      <data key="d6" />
+      <data key="d7" />
+      <port name="p0">
+        <data key="d15" />
+      </port>
+      <port name="p1">
+        <data key="d15" />
+      </port>
+      <port name="p2">
+        <data key="d15" />
+      </port>
+      <port name="p3">
+        <data key="d15" />
+      </port>
+      <port name="p4">
+        <data key="d15" />
+      </port>
+      <port name="p5">
+        <data key="d15" />
+      </port>
+    </node>
+    <edge id="e0" source="n1::n0" target="n0::n2" sourceport="p0" targetport="p1">
+      <data key="d9"><![CDATA[Direct]]></data>
+      <data key="d11" />
+      <data key="d12">
+        <ywpf:PolylineEdgeStyle>
+          <ywpf:PolylineEdgeStyle.Pen>
+            <Pen Brush="#FF5B90BF" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+          </ywpf:PolylineEdgeStyle.Pen>
+          <ywpf:PolylineEdgeStyle.TargetArrow>
+            <ywpf:Arrow Brush="{y:GraphMLReference 2}" CropLength="1" Type="Triangle" IsFrozen="True">
+              <ywpf:Arrow.Pen>
+                <Pen Brush="#FF5B90BF" Thickness="3" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+              </ywpf:Arrow.Pen>
+            </ywpf:Arrow>
+          </ywpf:PolylineEdgeStyle.TargetArrow>
+        </ywpf:PolylineEdgeStyle>
+      </data>
+      <data key="d6" />
+    </edge>
+    <edge id="e1" source="n3::n0" target="n1::n0" sourceport="p0" targetport="p1">
+      <data key="d9"><![CDATA[Direct]]></data>
+      <data key="d11" />
+      <data key="d12">
+        <ywpf:PolylineEdgeStyle>
+          <ywpf:PolylineEdgeStyle.Pen>
+            <Pen Brush="#FF5B90BF" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+          </ywpf:PolylineEdgeStyle.Pen>
+          <ywpf:PolylineEdgeStyle.TargetArrow>
+            <ywpf:Arrow Brush="{y:GraphMLReference 2}" CropLength="1" Type="Triangle" IsFrozen="True">
+              <ywpf:Arrow.Pen>
+                <Pen Brush="#FF5B90BF" Thickness="3" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+              </ywpf:Arrow.Pen>
+            </ywpf:Arrow>
+          </ywpf:PolylineEdgeStyle.TargetArrow>
+        </ywpf:PolylineEdgeStyle>
+      </data>
+      <data key="d6" />
+    </edge>
+    <edge id="e2" source="n3::n1" target="n1::n1" sourceport="p0" targetport="p0">
+      <data key="d9"><![CDATA[Direct]]></data>
+      <data key="d11" />
+      <data key="d12">
+        <ywpf:PolylineEdgeStyle>
+          <ywpf:PolylineEdgeStyle.Pen>
+            <Pen Brush="#FF5B90BF" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+          </ywpf:PolylineEdgeStyle.Pen>
+          <ywpf:PolylineEdgeStyle.TargetArrow>
+            <ywpf:Arrow Brush="{y:GraphMLReference 2}" CropLength="1" Type="Triangle" IsFrozen="True">
+              <ywpf:Arrow.Pen>
+                <Pen Brush="#FF5B90BF" Thickness="3" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+              </ywpf:Arrow.Pen>
+            </ywpf:Arrow>
+          </ywpf:PolylineEdgeStyle.TargetArrow>
+        </ywpf:PolylineEdgeStyle>
+      </data>
+      <data key="d6" />
+    </edge>
+    <edge id="e3" source="n3::n2" target="n1::n2" sourceport="p0" targetport="p0">
+      <data key="d9"><![CDATA[Direct]]></data>
+      <data key="d12">
+        <ywpf:PolylineEdgeStyle>
+          <ywpf:PolylineEdgeStyle.Pen>
+            <Pen Brush="#FF5B90BF" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+          </ywpf:PolylineEdgeStyle.Pen>
+          <ywpf:PolylineEdgeStyle.TargetArrow>
+            <ywpf:Arrow Brush="{y:GraphMLReference 2}" CropLength="1" Type="Triangle" IsFrozen="True">
+              <ywpf:Arrow.Pen>
+                <Pen Brush="#FF5B90BF" Thickness="3" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+              </ywpf:Arrow.Pen>
+            </ywpf:Arrow>
+          </ywpf:PolylineEdgeStyle.TargetArrow>
+        </ywpf:PolylineEdgeStyle>
+      </data>
+      <data key="d6" />
+    </edge>
+    <edge id="e4" source="n4::n1" target="n2::n1" sourceport="p1" targetport="p1">
+      <data key="d9"><![CDATA[Direct]]></data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d6" />
+    </edge>
+    <edge id="e5" source="n4::n1" target="n1::n0" sourceport="p2" targetport="p2">
+      <data key="d9"><![CDATA[Direct]]></data>
+      <data key="d11" />
+      <data key="d12">
+        <ywpf:PolylineEdgeStyle>
+          <ywpf:PolylineEdgeStyle.Pen>
+            <Pen Brush="#FF5B90BF" Thickness="5" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+          </ywpf:PolylineEdgeStyle.Pen>
+          <ywpf:PolylineEdgeStyle.TargetArrow>
+            <ywpf:Arrow Brush="{y:GraphMLReference 2}" CropLength="1" Type="Triangle" IsFrozen="True">
+              <ywpf:Arrow.Pen>
+                <Pen Brush="#FF5B90BF" Thickness="3" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+              </ywpf:Arrow.Pen>
+            </ywpf:Arrow>
+          </ywpf:PolylineEdgeStyle.TargetArrow>
+        </ywpf:PolylineEdgeStyle>
+      </data>
+      <data key="d6" />
+    </edge>
+    <edge id="e6" source="n4::n1" target="n1::n1" sourceport="p3" targetport="p1">
+      <data key="d9"><![CDATA[Direct]]></data>
+      <data key="d11" />
+      <data key="d12">
+        <ywpf:PolylineEdgeStyle>
+          <ywpf:PolylineEdgeStyle.Pen>
+            <Pen Brush="#FF5B90BF" Thickness="5" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+          </ywpf:PolylineEdgeStyle.Pen>
+          <ywpf:PolylineEdgeStyle.TargetArrow>
+            <ywpf:Arrow Brush="{y:GraphMLReference 2}" CropLength="1" Type="Triangle" IsFrozen="True">
+              <ywpf:Arrow.Pen>
+                <Pen Brush="#FF5B90BF" Thickness="3" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+              </ywpf:Arrow.Pen>
+            </ywpf:Arrow>
+          </ywpf:PolylineEdgeStyle.TargetArrow>
+        </ywpf:PolylineEdgeStyle>
+      </data>
+      <data key="d6" />
+    </edge>
+    <edge id="e7" source="n4::n1" target="n0::n1" sourceport="p4" targetport="p2">
+      <data key="d9"><![CDATA[Direct]]></data>
+      <data key="d11" />
+      <data key="d12">
+        <ywpf:PolylineEdgeStyle>
+          <ywpf:PolylineEdgeStyle.Pen>
+            <Pen Brush="#FF5B90BF" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+          </ywpf:PolylineEdgeStyle.Pen>
+          <ywpf:PolylineEdgeStyle.TargetArrow>
+            <ywpf:Arrow Brush="{y:GraphMLReference 2}" CropLength="1" Type="Triangle" IsFrozen="True">
+              <ywpf:Arrow.Pen>
+                <Pen Brush="#FF5B90BF" Thickness="3" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+              </ywpf:Arrow.Pen>
+            </ywpf:Arrow>
+          </ywpf:PolylineEdgeStyle.TargetArrow>
+        </ywpf:PolylineEdgeStyle>
+      </data>
+      <data key="d6" />
+    </edge>
+    <edge id="e8" source="n4::n1" target="n1::n2" sourceport="p5" targetport="p1">
+      <data key="d9"><![CDATA[Direct]]></data>
+      <data key="d11" />
+      <data key="d12">
+        <ywpf:PolylineEdgeStyle>
+          <ywpf:PolylineEdgeStyle.Pen>
+            <Pen Brush="#FF5B90BF" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+          </ywpf:PolylineEdgeStyle.Pen>
+          <ywpf:PolylineEdgeStyle.TargetArrow>
+            <ywpf:Arrow Brush="{y:GraphMLReference 2}" CropLength="1" Type="Triangle" IsFrozen="True">
+              <ywpf:Arrow.Pen>
+                <Pen Brush="#FF5B90BF" Thickness="3" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+              </ywpf:Arrow.Pen>
+            </ywpf:Arrow>
+          </ywpf:PolylineEdgeStyle.TargetArrow>
+        </ywpf:PolylineEdgeStyle>
+      </data>
+      <data key="d6" />
+    </edge>
+    <edge id="e9" source="n4::n1" target="n1::n3" sourceport="p6" targetport="p0">
+      <data key="d9"><![CDATA[Direct]]></data>
+      <data key="d11" />
+      <data key="d12">
+        <ywpf:PolylineEdgeStyle>
+          <ywpf:PolylineEdgeStyle.Pen>
+            <Pen Brush="#FF5B90BF" Thickness="5" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+          </ywpf:PolylineEdgeStyle.Pen>
+          <ywpf:PolylineEdgeStyle.TargetArrow>
+            <ywpf:Arrow Brush="{y:GraphMLReference 2}" CropLength="1" Type="Triangle" IsFrozen="True">
+              <ywpf:Arrow.Pen>
+                <Pen Brush="#FF5B90BF" Thickness="3" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+              </ywpf:Arrow.Pen>
+            </ywpf:Arrow>
+          </ywpf:PolylineEdgeStyle.TargetArrow>
+        </ywpf:PolylineEdgeStyle>
+      </data>
+      <data key="d6" />
+    </edge>
+    <edge id="e10" source="n5" target="n2::n0" sourceport="p0" targetport="p1">
+      <data key="d9"><![CDATA[Direct]]></data>
+      <data key="d11" />
+      <data key="d12">
+        <ywpf:PolylineEdgeStyle>
+          <ywpf:PolylineEdgeStyle.Pen>
+            <Pen Brush="#FF5B90BF" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+          </ywpf:PolylineEdgeStyle.Pen>
+          <ywpf:PolylineEdgeStyle.TargetArrow>
+            <ywpf:Arrow Brush="{y:GraphMLReference 2}" CropLength="1" Type="Triangle" IsFrozen="True">
+              <ywpf:Arrow.Pen>
+                <Pen Brush="#FF5B90BF" Thickness="3" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+              </ywpf:Arrow.Pen>
+            </ywpf:Arrow>
+          </ywpf:PolylineEdgeStyle.TargetArrow>
+        </ywpf:PolylineEdgeStyle>
+      </data>
+      <data key="d6" />
+    </edge>
+    <edge id="e11" source="n5" target="n3::n0" sourceport="p1" targetport="p1">
+      <data key="d9"><![CDATA[Direct]]></data>
+      <data key="d11" />
+      <data key="d12">
+        <ywpf:PolylineEdgeStyle>
+          <ywpf:PolylineEdgeStyle.Pen>
+            <Pen Brush="#FF5B90BF" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+          </ywpf:PolylineEdgeStyle.Pen>
+          <ywpf:PolylineEdgeStyle.TargetArrow>
+            <ywpf:Arrow Brush="{y:GraphMLReference 2}" CropLength="1" Type="Triangle" IsFrozen="True">
+              <ywpf:Arrow.Pen>
+                <Pen Brush="#FF5B90BF" Thickness="3" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+              </ywpf:Arrow.Pen>
+            </ywpf:Arrow>
+          </ywpf:PolylineEdgeStyle.TargetArrow>
+        </ywpf:PolylineEdgeStyle>
+      </data>
+      <data key="d6" />
+    </edge>
+    <edge id="e12" source="n5" target="n3::n1" sourceport="p2" targetport="p1">
+      <data key="d9"><![CDATA[Direct]]></data>
+      <data key="d11" />
+      <data key="d12">
+        <ywpf:PolylineEdgeStyle>
+          <ywpf:PolylineEdgeStyle.Pen>
+            <Pen Brush="#FF5B90BF" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+          </ywpf:PolylineEdgeStyle.Pen>
+          <ywpf:PolylineEdgeStyle.TargetArrow>
+            <ywpf:Arrow Brush="{y:GraphMLReference 2}" CropLength="1" Type="Triangle" IsFrozen="True">
+              <ywpf:Arrow.Pen>
+                <Pen Brush="#FF5B90BF" Thickness="3" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+              </ywpf:Arrow.Pen>
+            </ywpf:Arrow>
+          </ywpf:PolylineEdgeStyle.TargetArrow>
+        </ywpf:PolylineEdgeStyle>
+      </data>
+      <data key="d6" />
+    </edge>
+    <edge id="e13" source="n5" target="n0::n0" sourceport="p3" targetport="p1">
+      <data key="d9"><![CDATA[Direct]]></data>
+      <data key="d11" />
+      <data key="d12">
+        <ywpf:PolylineEdgeStyle>
+          <ywpf:PolylineEdgeStyle.Pen>
+            <Pen Brush="#FF5B90BF" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+          </ywpf:PolylineEdgeStyle.Pen>
+          <ywpf:PolylineEdgeStyle.TargetArrow>
+            <ywpf:Arrow Brush="{y:GraphMLReference 2}" CropLength="1" Type="Triangle" IsFrozen="True">
+              <ywpf:Arrow.Pen>
+                <Pen Brush="#FF5B90BF" Thickness="3" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+              </ywpf:Arrow.Pen>
+            </ywpf:Arrow>
+          </ywpf:PolylineEdgeStyle.TargetArrow>
+        </ywpf:PolylineEdgeStyle>
+      </data>
+      <data key="d6" />
+    </edge>
+    <edge id="e14" source="n5" target="n3::n2" sourceport="p4" targetport="p1">
+      <data key="d9"><![CDATA[Direct]]></data>
+      <data key="d11" />
+      <data key="d12">
+        <ywpf:PolylineEdgeStyle>
+          <ywpf:PolylineEdgeStyle.Pen>
+            <Pen Brush="#FF5B90BF" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+          </ywpf:PolylineEdgeStyle.Pen>
+          <ywpf:PolylineEdgeStyle.TargetArrow>
+            <ywpf:Arrow Brush="{y:GraphMLReference 2}" CropLength="1" Type="Triangle" IsFrozen="True">
+              <ywpf:Arrow.Pen>
+                <Pen Brush="#FF5B90BF" Thickness="3" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" />
+              </ywpf:Arrow.Pen>
+            </ywpf:Arrow>
+          </ywpf:PolylineEdgeStyle.TargetArrow>
+        </ywpf:PolylineEdgeStyle>
+      </data>
+      <data key="d6" />
+    </edge>
+    <edge id="e15" source="n5" target="n4::n0" sourceport="p5" targetport="p1">
+      <data key="d9"><![CDATA[Direct]]></data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d6" />
+    </edge>
+  </graph>
+</graphml>
